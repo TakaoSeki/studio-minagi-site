@@ -37,611 +37,269 @@
 </head>
 <body>
 
+<div lang="en">
+
 <h1>Privacy Policy</h1>
 
-<p class="updated">Last Updated: June 2026</p>
+<p class="updated">Last updated November 22, 2026</p>
 
-<p>
-This Privacy Policy applies to mobile applications and related services provided by STUDIO MINAGI ("Developer").
-</p>
-
-<p>
-Because features and services vary by application, not all services described in this Privacy Policy are necessarily used in every application.
-</p>
-
-<p>
-By using applications provided by the Developer, you agree to the collection and use of information in accordance with this Privacy Policy.
-</p>
+<p>This policy explains how STUDIO MINAGI (the Developer) handles information in all of its iOS and Android apps and related services. It covers 経理課長の簿記仕訳 (KariKashi), ふぐポン (Fugu Pon), and apps we release in the future. Features and service providers vary by app, platform, and version. Descriptions that name a particular app or platform apply to that app or platform.</p>
 
 <hr>
 
 <h2>Advertising Services</h2>
 
-<p>
-Some applications may use third-party advertising services to display advertisements.
-</p>
+<p>Apps that display ads may use Unity LevelPlay, Unity Ads, ironSource Ads, Google AdMob, or other advertising partners, depending on the app. KariKashi for Android uses Unity LevelPlay for ad mediation and integrates Unity Ads through LevelPlay. The integration includes Unity Ad Quality, which may process information about ads and how users interact with them when the service is active.</p>
 
-<p>
-Advertising services may include, but are not limited to:
-</p>
+<p>Advertising SDKs can collect information directly from the app or device. Depending on the service and configuration, this may include:</p>
 
 <ul>
-  <li>Unity LevelPlay</li>
-  <li>Unity Ads</li>
-  <li>ironSource Ads</li>
-  <li>Google AdMob</li>
-  <li>Other advertising partners</li>
+  <li>Advertising identifiers, including the IDFA on iOS and the Android advertising ID (AAID), and other device or app identifiers.</li>
+  <li>Device model, operating system, app version, IP address, and approximate location inferred from information such as IP address.</li>
+  <li>Ad impressions, views, taps and other ad interactions, and technical data such as errors when an ad loads or displays.</li>
+  <li>App usage information, such as session or usage time, when the applicable measurement feature is active.</li>
 </ul>
 
-<p>
-These services may collect and process information such as:
-</p>
+<p>Providers may use this information to deliver ads, personalize them where permitted, measure and improve advertising, maintain service performance, prevent fraud and abuse, and support security and compliance. Unity and participating ad networks may receive this information directly from their SDKs. Advertising providers may share relevant information with partners that deliver, measure, or verify ads, as described in their privacy policies. The in-app purchases section below also explains purchase measurement by Unity Ads on Android.</p>
 
 <ul>
-  <li>Advertising Identifier (IDFA)</li>
-  <li>Device identifiers</li>
-  <li>Device information</li>
-  <li>IP address</li>
-  <li>Usage data</li>
-  <li>Advertising interaction data</li>
-</ul>
-
-<p>
-This information may be used for:
-</p>
-
-<ul>
-  <li>Delivering advertisements</li>
-  <li>Ad personalization where permitted</li>
-  <li>Measuring advertising performance</li>
-  <li>Fraud prevention</li>
-  <li>Service optimization</li>
-</ul>
-
-<p>
-For more information, please refer to the privacy policies of the respective providers:
-</p>
-
-<ul>
-  <li>
-    Unity Privacy Policy:
-    <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
-      https://unity.com/legal/privacy-policy
-    </a>
-  </li>
-  <li>
-    ironSource Privacy Policy:
-    <a href="https://developers.is.com/ironsource-mobile/general/making-sure-youre-compliant-post-gdpr/" target="_blank" rel="noopener noreferrer">
-      https://developers.is.com/ironsource-mobile/general/making-sure-youre-compliant-post-gdpr/
-    </a>
-  </li>
-  <li>
-    Google Privacy Policy:
-    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
-      https://policies.google.com/privacy
-    </a>
-  </li>
+  <li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener noreferrer">Unity Game Player and App User Privacy Policy, including its advertising services</a></li>
+  <li><a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Unity Privacy Policy</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy, including Google advertising services where used</a></li>
 </ul>
 
 <hr>
 
 <h2>In-App Purchases</h2>
 
-<p>
-Some applications may offer optional In-App Purchases through the Apple App Store.
-</p>
+<p>Apps that offer in-app purchases use the applicable store. Apple processes App Store payments on iOS and Google processes Google Play payments on Android. The stores handle payment credentials such as card numbers and bank account details under their own policies. The Developer and the app do not receive or store those credentials through the store billing flow.</p>
 
-<p>
-Payment processing is handled by Apple. The Developer does not collect, store, or have access to credit card information, bank account information, or other payment credentials.
-</p>
+<p>The app receives purchase information needed to verify entitlement, deliver the purchased content, and restore access. In KariKashi, this can include the purchased product and its status, along with transaction identifiers and store receipt data. On Android, the app uses Google Play Billing through Unity IAP to check eligible purchases automatically, including when the store connection is established, and when the user requests restoration. The billing library passes the purchase token to Google Play when acknowledging an eligible purchase. The app stores the entitlement status on the device so the purchased questions can be made available. On iOS, requests to restore purchases are handled through the App Store.</p>
 
-<p>
-Purchase information may be used only as necessary to validate purchase status and provide purchased content or features within the application.
-</p>
+<p>When purchase measurement is enabled for KariKashi for Android, the Unity Ads SDK can automatically obtain information about new purchases or eligible past purchases from Google Play Billing and send it to Unity Ads for advertising measurement, campaign optimization, and analysis. This may include the product ID, purchase time, order ID, purchase status, product details, and Google Play purchase data, which may contain a purchase token and a signature used for verification. This may happen when the SDK initializes or receives a purchase update. Ad networks and measurement partners may receive information as described in Unity's privacy policy.</p>
 
-<p>
-For more information, please refer to Apple's privacy policy:
-</p>
-
-<p>
-<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">
-  https://www.apple.com/legal/privacy/
-</a>
-</p>
+<ul>
+  <li><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a></li>
+  <li><a href="https://www.apple.com/legal/privacy/data/en/app-store/" target="_blank" rel="noopener noreferrer">App Store &amp; Privacy</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+  <li><a href="https://support.google.com/googleplay/answer/2850369?hl=en" target="_blank" rel="noopener noreferrer">Google Play order history</a></li>
+  <li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener noreferrer">Unity Game Player and App User Privacy Policy</a></li>
+</ul>
 
 <hr>
 
 <h2>Analytics and Diagnostics</h2>
 
-<p>
-Some applications may use analytics or diagnostic services to improve functionality, stability, and user experience.
-</p>
+<p>Depending on the app, analytics and diagnostic services may include Firebase Analytics, Firebase Crashlytics, or other providers. These services may receive usage data, device information, logs, errors, crash reports, and performance measurements to help improve stability and investigate problems.</p>
 
-<p>
-Such services may include, but are not limited to:
-</p>
+<p>KariKashi for Android uses Unity Engine Diagnostics. Unity may receive crash reports, reports of the app becoming unresponsive, exception logs, and technical information such as the app version, operating system, and performance data. Its advertising and billing SDKs may also send diagnostic events. Google Play Billing may send Google information about billing API results and connection issues. These diagnostics help the respective providers and the Developer monitor reliability, investigate errors, and improve their services.</p>
 
 <ul>
-  <li>Firebase Analytics</li>
-  <li>Firebase Crashlytics</li>
-  <li>Other analytics or diagnostic services</li>
+  <li><a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Unity Privacy Policy</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
 </ul>
-
-<p>
-These services may collect and process information such as:
-</p>
-
-<ul>
-  <li>Application usage information</li>
-  <li>Device information</li>
-  <li>Log data</li>
-  <li>Error reports</li>
-  <li>Crash reports</li>
-</ul>
-
-<p>
-The collected information is used for service improvement, performance monitoring, bug fixing, and operational purposes.
-</p>
-
-<p>
-For more information, please refer to Google's privacy policy:
-</p>
-
-<p>
-<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
-  https://policies.google.com/privacy
-</a>
-</p>
 
 <hr>
 
 <h2>Online Services</h2>
 
-<p>
-Some applications may use online backend services to provide features such as:
-</p>
+<p>Some apps use online services for leaderboards, cloud saves, anonymous sign-in, or gameplay data management. Services such as Microsoft PlayFab may receive identifiers, gameplay information, device information, or usage data needed to provide those features. For KariKashi for Android, high scores, play counts, and sound settings are saved by the app on the device. Android may include eligible local app data in its system backup or device transfer, depending on the user's settings and device.</p>
 
 <ul>
-  <li>Leaderboards</li>
-  <li>Cloud data storage</li>
-  <li>Anonymous user authentication</li>
-  <li>Gameplay data management</li>
-</ul>
-
-<p>
-Service providers may include, but are not limited to:
-</p>
-
-<ul>
-  <li>Microsoft PlayFab</li>
-  <li>Other cloud service providers</li>
-</ul>
-
-<p>
-These services may process anonymous identifiers, gameplay information, device information, and usage data as necessary to provide their functionality.
-</p>
-
-<p>
-For more information, please refer to Microsoft Privacy Statement and PlayFab-related terms:
-</p>
-
-<ul>
-  <li>
-    Microsoft Privacy Statement:
-    <a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" rel="noopener noreferrer">
-      https://privacy.microsoft.com/en-us/privacystatement
-    </a>
-  </li>
-  <li>
-    PlayFab Terms:
-    <a href="https://playfab.com/terms/" target="_blank" rel="noopener noreferrer">
-      https://playfab.com/terms/
-    </a>
-  </li>
+  <li><a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" rel="noopener noreferrer">Microsoft Privacy Statement</a></li>
+  <li><a href="https://developer.microsoft.com/en-us/games/products/playfab/terms/" target="_blank" rel="noopener noreferrer">PlayFab Terms</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
 </ul>
 
 <hr>
 
-<h2>App Tracking Transparency</h2>
+<h2>App Tracking Transparency and Advertising Choices</h2>
 
-<p>
-Applications may request permission under Apple's App Tracking Transparency framework where required.
-</p>
+<p>On iOS and iPadOS, apps may ask for App Tracking Transparency (ATT) permission when applicable. The IDFA is accessible only with permission where the platform requires it. You can change your tracking choice in the device settings. If you decline tracking, you can continue to use the app and may still see non-personalized ads.</p>
 
-<p>
-If tracking permission is denied:
-</p>
+<p>On Android, you can manage the AAID in your device's privacy or ads settings, including resetting or deleting it where supported. This changes how the identifier can be used. Ads and other processing necessary for features such as diagnostics or purchase restoration may continue.</p>
 
 <ul>
-  <li>Personalized advertising may be limited</li>
-  <li>Non-personalized advertisements may still be displayed</li>
-  <li>The application can still be used</li>
+  <li><a href="https://www.apple.com/privacy/control/" target="_blank" rel="noopener noreferrer">Apple's privacy controls, including app tracking</a></li>
+  <li><a href="https://support.google.com/googleplay/android-developer/answer/6048248?hl=en" target="_blank" rel="noopener noreferrer">Google's guide to managing the Android advertising ID</a></li>
 </ul>
-
-<p>
-Users may modify tracking preferences at any time through their device settings.
-</p>
 
 <hr>
 
 <h2>Personal Information</h2>
 
-<p>
-The Developer does not directly collect personally identifiable information such as:
-</p>
+<p>KariKashi for Android has no app account sign-up or sign-in. The app does not ask users to enter their name, address, email address, or phone number during gameplay. The app's SDKs may process identifiers and other data as described above, including information associated with a device or transaction.</p>
 
-<ul>
-  <li>Name</li>
-  <li>Postal address</li>
-  <li>Email address</li>
-  <li>Phone number</li>
-</ul>
-
-<p>
-However, anonymous or pseudonymous information may be collected or processed through third-party services as described in this Privacy Policy.
-</p>
+<p>If you email the Developer, we receive your email address and the information you choose to provide. We use it to respond, investigate the issue, and keep records needed for follow-up.</p>
 
 <hr>
 
 <h2>Children's Privacy</h2>
 
-<p>
-The applications are not intended to knowingly collect personal information from children.
-</p>
+<p>We set the target age groups and age information for each app in the stores where it is available. Check each app's store listing for the age rating and age information displayed by the store.</p>
 
-<p>
-If it is discovered that personal information has been collected from a child without appropriate consent, reasonable steps will be taken to delete such information promptly.
-</p>
+<p>Our apps are not designed to knowingly collect personal information from children. If you believe a child has provided personal information without the required permission, contact us at the address below. We will investigate and take reasonable steps to remove the information as appropriate.</p>
 
 <hr>
 
-<h2>Data Retention</h2>
+<h2>Data Retention, Deletion, and Security</h2>
 
-<p>
-Information collected through third-party services is retained according to the policies of each service provider.
-</p>
+<p>The Developer keeps support correspondence for as long as needed to handle the request and any follow-up, and longer where required by law. We delete information under our control when those purposes no longer require it. Third-party services retain the information they handle under their own policies, including periods needed for their services, legal obligations, accounting, or fraud prevention, as applicable.</p>
 
-<p>
-The Developer does not directly store personally identifiable information unless explicitly stated within an individual application or service.
-</p>
+<p>For personal information managed by the Developer, we respond to requests under applicable law, including requests for access, correction, suspension of use, and deletion. Please contact us at the email address below and include the app name and platform. We may ask for the minimum information needed to verify the request. We assess what action we can take based on the applicable law and any record retention obligations.</p>
+
+<p>Data managed by third-party SDK providers or stores is subject to their policies and procedures. For such data, use the relevant provider's privacy or account support channels linked above.</p>
+
+<p>To remove local app data, choose Clear storage in the app's settings on Android, or Delete App in the device storage settings on iOS. If you use the same store account again, purchase entitlements may be restored. Records held by stores or SDK providers, as well as system backups, are managed separately from local app data.</p>
+
+<p>This policy is published over HTTPS. Unity's disclosures for LevelPlay, Unity Ads, and Engine Diagnostics describe encryption in transit for the data covered by those disclosures. The stores apply their own safeguards to payment information. The Developer limits access to support correspondence to those who need it to respond or investigate.</p>
 
 <hr>
 
 <h2>Changes to This Privacy Policy</h2>
 
-<p>
-This Privacy Policy may be updated from time to time.
-</p>
-
-<p>
-Any changes will be posted on this page. Continued use of the applications after changes become effective constitutes acceptance of the updated Privacy Policy.
-</p>
+<p>We will post changes on this page and update the revision date above.</p>
 
 <hr>
 
 <h2>Contact</h2>
 
-<p>
-If you have any questions about this Privacy Policy, please contact:
-</p>
+<p>For privacy questions or requests under applicable law, contact STUDIO MINAGI at <a href="mailto:info@studiominagi.com">info@studiominagi.com</a>.</p>
 
-<p>
-Developer: STUDIO MINAGI<br>
-Email: <a href="mailto:info@studiominagi.com">info@studiominagi.com</a>
-</p>
-
+</div>
 
 <hr>
 
+<div lang="ja">
+
 <h1>プライバシーポリシー</h1>
 
-<p class="updated">最終更新日：2026年6月</p>
+<p class="updated">最終更新日 2026年11月22日</p>
 
-<p>
-本プライバシーポリシーは、STUDIO MINAGI（以下「開発者」）が提供するモバイルアプリおよび関連サービスに適用されます。
-</p>
-
-<p>
-アプリごとに搭載される機能や利用するサービスが異なるため、本ポリシーに記載されたすべてのサービスが各アプリで利用されるとは限りません。
-</p>
-
-<p>
-利用者は、開発者が提供するアプリを利用することにより、本プライバシーポリシーに記載された内容に同意したものとみなされます。
-</p>
+<p>本ポリシーは、STUDIO MINAGI（以下「開発者」）が提供するすべてのiOS・Androidアプリと関連サービスにおける情報の取り扱いを説明します。「経理課長の簿記仕訳（KariKashi）」「ふぐポン」のほか、今後公開するアプリにも適用します。利用する機能やサービスは、アプリ、OS、バージョンによって異なります。特定のアプリやOSを明記した説明は、そのアプリやOSに適用されます。</p>
 
 <hr>
 
 <h2>広告サービスについて</h2>
 
-<p>
-一部のアプリでは、広告配信のために第三者の広告サービスを利用する場合があります。
-</p>
+<p>広告を表示するアプリでは、アプリに応じてUnity LevelPlay、Unity Ads、ironSource Ads、Google AdMobなどの第三者広告サービスを利用する場合があります。KariKashiのAndroid版では、広告配信の仲介にUnity LevelPlayを利用し、Unity AdsをLevelPlay経由で組み込んでいます。広告品質の監視に用いるUnity Ad Qualityも含まれ、同機能が有効な場合は広告や広告への操作に関する情報を処理することがあります。</p>
 
-<p>
-利用される広告サービスには、以下が含まれる場合があります。
-</p>
+<p>広告SDKは、アプリや端末から直接情報を取得する場合があります。サービスや設定に応じて、次の情報が対象になります。</p>
 
 <ul>
-  <li>Unity LevelPlay</li>
-  <li>Unity Ads</li>
-  <li>ironSource Ads</li>
-  <li>Google AdMob</li>
-  <li>その他の広告ネットワーク</li>
+  <li>iOSのIDFAやAndroid広告ID（AAID）などの広告識別子、およびその他の端末・アプリの識別子</li>
+  <li>端末の機種、OS、アプリのバージョン、IPアドレス、IPアドレスなどから推定されるおおよその位置</li>
+  <li>広告の表示・閲覧・タップなどの操作情報、および広告の読み込み・表示エラーなどの技術情報</li>
+  <li>該当する計測機能が有効な場合の、アプリの利用時間やセッションなどの利用情報</li>
 </ul>
 
-<p>
-これらのサービスは、以下の情報を収集・処理する場合があります。
-</p>
+<p>広告サービス提供者は、広告配信、許可される場合の広告のパーソナライズ、広告効果の測定・改善、サービスの品質維持、不正利用の検知・防止、安全管理や法令遵守のためにこれらの情報を利用する場合があります。Unityや配信に参加する広告ネットワークは、SDK経由で情報を受け取る場合があります。広告サービス提供者は、各社のポリシーに従い、配信・計測・検証を担う提携先に必要な情報を提供する場合があります。Android版のUnity Adsによる購入計測は、次の「アプリ内課金について」に記載しています。</p>
 
 <ul>
-  <li>広告識別子（IDFA）</li>
-  <li>端末識別子</li>
-  <li>端末情報</li>
-  <li>IPアドレス</li>
-  <li>利用状況</li>
-  <li>広告閲覧・操作情報</li>
-</ul>
-
-<p>
-収集された情報は、以下の目的で利用される場合があります。
-</p>
-
-<ul>
-  <li>広告配信</li>
-  <li>広告の最適化</li>
-  <li>広告効果の測定</li>
-  <li>不正利用の防止</li>
-  <li>サービス改善</li>
-</ul>
-
-<p>
-詳細については、各サービス提供者のプライバシーポリシーをご確認ください。
-</p>
-
-<ul>
-  <li>
-    Unity Privacy Policy:
-    <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">
-      https://unity.com/legal/privacy-policy
-    </a>
-  </li>
-  <li>
-    ironSource Privacy Policy:
-    <a href="https://developers.is.com/ironsource-mobile/general/making-sure-youre-compliant-post-gdpr/" target="_blank" rel="noopener noreferrer">
-      https://developers.is.com/ironsource-mobile/general/making-sure-youre-compliant-post-gdpr/
-    </a>
-  </li>
-  <li>
-    Google Privacy Policy:
-    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
-      https://policies.google.com/privacy
-    </a>
-  </li>
+  <li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener noreferrer">Unityのゲームプレイヤー・アプリ利用者向けプライバシーポリシー（広告サービスを含む）</a></li>
+  <li><a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Unityプライバシーポリシー</a></li>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Googleプライバシーポリシー（Googleの広告サービスを利用する場合を含む）</a></li>
 </ul>
 
 <hr>
 
 <h2>アプリ内課金について</h2>
 
-<p>
-一部のアプリでは、Apple App Storeが提供するアプリ内課金（In-App Purchase）を利用する場合があります。
-</p>
+<p>アプリ内課金を提供する場合、iOS版ではAppleのApp Store、Android版ではGoogle Playを利用します。クレジットカード番号や銀行口座情報などの支払い手段に関する情報は、各ストアの規約とポリシーに従ってAppleまたはGoogleが取り扱います。ストア決済を通じて、開発者やアプリがこれらの情報を受け取ったり保存したりすることはありません。</p>
 
-<p>
-決済処理はAppleによって行われます。
-</p>
+<p>アプリは、購入権利の確認、購入済みコンテンツの提供、復元に必要な購入情報をストアから受け取ります。KariKashiでは、購入した商品や購入状態、取引識別子、ストアのレシート情報が含まれる場合があります。Android版はUnity IAPを通じてGoogle Play Billingを使用し、ストアへの接続時などに購入済み情報を自動で照会します。利用者が復元を操作した際にも照会します。対象の購入を承認する際、課金ライブラリは購入トークンをGoogle Playに渡します。アプリは購入済みの追加問題を利用できるよう、端末に購入権利の状態を保存します。iOS版での復元操作はApp Storeを通じて処理します。</p>
 
-<p>
-開発者は以下の情報を取得、保存、管理しません。
-</p>
+<p>KariKashiのAndroid版で購入計測が有効な場合、Unity Ads SDKがGoogle Play Billingを通じて、新規購入や照会可能な購入済み取引に関する情報を自動で取得し、広告効果の測定、キャンペーンの最適化、分析のためUnity Adsへ送信することがあります。送信情報には、商品ID、購入日時、注文ID、購入状態、商品情報、購入トークンや検証用の署名を含むGoogle Playの購入データが含まれる場合があります。取得は広告SDKの初期化時や購入状態の更新時に行われる場合があります。Unityのポリシーに従い、広告ネットワークや計測事業者に関連情報が提供される場合があります。</p>
 
 <ul>
-  <li>クレジットカード情報</li>
-  <li>銀行口座情報</li>
-  <li>決済情報</li>
+  <li><a href="https://www.apple.com/jp/legal/privacy/" target="_blank" rel="noopener noreferrer">Appleプライバシーポリシー</a></li>
+  <li><a href="https://www.apple.com/jp/legal/privacy/data/ja/app-store/" target="_blank" rel="noopener noreferrer">App Storeとプライバシー</a></li>
+  <li><a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener noreferrer">Googleプライバシーポリシー</a></li>
+  <li><a href="https://support.google.com/googleplay/answer/2850369?hl=ja" target="_blank" rel="noopener noreferrer">Google Playの注文履歴</a></li>
+  <li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener noreferrer">Unityのゲームプレイヤー・アプリ利用者向けプライバシーポリシー</a></li>
 </ul>
-
-<p>
-購入状況の確認および購入済みコンテンツの提供に必要な範囲で、Appleから購入情報が提供される場合があります。
-</p>
-
-<p>
-詳細についてはAppleのプライバシーポリシーをご確認ください。
-</p>
-
-<p>
-<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">
-https://www.apple.com/legal/privacy/
-</a>
-</p>
 
 <hr>
 
 <h2>解析・診断サービスについて</h2>
 
-<p>
-一部のアプリでは、機能改善や品質向上のために解析・診断サービスを利用する場合があります。
-</p>
+<p>アプリに応じて、Firebase Analytics、Firebase Crashlyticsなどの解析・診断サービスを利用する場合があります。これらのサービスは、安定性の向上や不具合の調査のため、利用状況、端末情報、ログ、エラー、クラッシュ報告、性能データなどを受け取ることがあります。</p>
 
-<p>
-利用されるサービスには以下が含まれる場合があります。
-</p>
+<p>KariKashiのAndroid版では、Unity Engine Diagnosticsを使用します。Unityは、クラッシュ、アプリの応答停止、例外ログ、アプリのバージョン・OS・性能データなどの技術情報を受け取る場合があります。広告・課金のSDKもそれぞれの診断情報を送信する場合があります。Google Play Billingでは、課金APIの処理結果やストア接続の問題に関する情報がGoogleに送信される場合があります。各サービス提供者と開発者は、安定性の確認、不具合の調査、サービスの改善にこれらの情報を利用します。</p>
 
 <ul>
-  <li>Firebase Analytics</li>
-  <li>Firebase Crashlytics</li>
-  <li>その他の解析サービス</li>
+  <li><a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Unityプライバシーポリシー</a></li>
+  <li><a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener noreferrer">Googleプライバシーポリシー</a></li>
 </ul>
-
-<p>
-これらのサービスは以下の情報を収集する場合があります。
-</p>
-
-<ul>
-  <li>アプリ利用状況</li>
-  <li>端末情報</li>
-  <li>ログ情報</li>
-  <li>エラー情報</li>
-  <li>クラッシュレポート</li>
-</ul>
-
-<p>
-取得した情報は、サービス改善、不具合調査、品質向上および運営目的のみに利用されます。
-</p>
-
-<p>
-詳細についてはGoogleのプライバシーポリシーをご確認ください。
-</p>
-
-<p>
-<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
-https://policies.google.com/privacy
-</a>
-</p>
 
 <hr>
 
 <h2>オンラインサービスについて</h2>
 
-<p>
-一部のアプリでは、以下の機能を提供するためにオンラインサービスを利用する場合があります。
-</p>
+<p>一部のアプリでは、ランキング、クラウド保存、匿名認証、ゲームデータ管理のためオンラインサービスを利用する場合があります。Microsoft PlayFabなどの提供者が、機能の提供に必要な識別子、ゲームプレイ情報、端末情報、利用状況を取り扱う場合があります。KariKashiのAndroid版では、ハイスコア、プレイ回数、音量設定をアプリが端末内に保存します。端末や利用者の設定によっては、対象となるアプリのローカルデータがAndroidのシステムバックアップや端末間移行に含まれる場合があります。</p>
 
 <ul>
-  <li>ランキング機能</li>
-  <li>クラウド保存</li>
-  <li>匿名認証</li>
-  <li>ゲームデータ管理</li>
-</ul>
-
-<p>
-利用されるサービスには以下が含まれる場合があります。
-</p>
-
-<ul>
-  <li>Microsoft PlayFab</li>
-  <li>その他のクラウドサービス</li>
-</ul>
-
-<p>
-これらのサービスは、機能提供のために匿名ID、ゲームプレイ情報、端末情報、利用状況等を処理する場合があります。
-</p>
-
-<p>
-詳細についてはMicrosoftおよびPlayFabの規約をご確認ください。
-</p>
-
-<ul>
-  <li>
-    Microsoft Privacy Statement:
-    <a href="https://privacy.microsoft.com/ja-jp/privacystatement" target="_blank" rel="noopener noreferrer">
-      https://privacy.microsoft.com/ja-jp/privacystatement
-    </a>
-  </li>
-  <li>
-    PlayFab Terms:
-    <a href="https://playfab.com/terms/" target="_blank" rel="noopener noreferrer">
-      https://playfab.com/terms/
-    </a>
-  </li>
+  <li><a href="https://privacy.microsoft.com/ja-jp/privacystatement" target="_blank" rel="noopener noreferrer">Microsoftプライバシーステートメント</a></li>
+  <li><a href="https://developer.microsoft.com/en-us/games/products/playfab/terms/" target="_blank" rel="noopener noreferrer">PlayFab利用規約</a></li>
+  <li><a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener noreferrer">Googleプライバシーポリシー</a></li>
 </ul>
 
 <hr>
 
-<h2>App Tracking Transparency（ATT）について</h2>
+<h2>App Tracking Transparency（ATT）と広告設定について</h2>
 
-<p>
-アプリはAppleのApp Tracking Transparency（ATT）フレームワークに基づき、必要に応じてトラッキング許可を求める場合があります。
-</p>
+<p>iOS・iPadOSでは、必要に応じてAppleのApp Tracking Transparency（ATT）を通じてトラッキング許可を求めます。OSが許可を必要とする場合、許可したときにIDFAを利用できます。トラッキングの許可は端末の設定で変更できます。トラッキングを許可しない場合もアプリを利用でき、非パーソナライズ広告が表示されることがあります。</p>
 
-<p>
-トラッキングを許可しない場合でも、
-</p>
+<p>Androidでは、端末のプライバシー設定や広告設定でAndroid広告IDを管理できます。対応する端末では広告IDをリセットまたは削除できます。広告IDの設定を変更した後も、広告表示、診断、購入の復元などの処理が続く場合があります。</p>
 
 <ul>
-  <li>非パーソナライズ広告の表示</li>
-  <li>アプリの利用</li>
+  <li><a href="https://www.apple.com/jp/privacy/control/" target="_blank" rel="noopener noreferrer">Appleのプライバシー設定（アプリのトラッキングを含む）</a></li>
+  <li><a href="https://support.google.com/googleplay/android-developer/answer/6048248?hl=ja" target="_blank" rel="noopener noreferrer">GoogleのAndroid広告IDに関する案内</a></li>
 </ul>
-
-<p>
-は引き続き可能です。
-</p>
-
-<p>
-トラッキング設定は、端末の設定からいつでも変更できます。
-</p>
 
 <hr>
 
 <h2>個人情報について</h2>
 
-<p>
-開発者は以下の個人情報を直接収集しません。
-</p>
+<p>KariKashiのAndroid版には、アプリ独自のアカウント登録やログイン機能がありません。プレイ時に氏名、住所、メールアドレス、電話番号の入力を求めることはありません。組み込まれたSDKは、前述のとおり、端末や取引に関連する識別子などの情報を取り扱う場合があります。</p>
 
-<ul>
-  <li>氏名</li>
-  <li>住所</li>
-  <li>メールアドレス</li>
-  <li>電話番号</li>
-</ul>
-
-<p>
-ただし、本ポリシーに記載された第三者サービスを通じて、匿名化または仮名化された情報が収集・処理される場合があります。
-</p>
+<p>利用者が開発者にメールで問い合わせた場合、開発者は送信元のメールアドレスと利用者が記載した情報を受け取ります。これらは返信、不具合などの調査、対応に必要な記録のために利用します。</p>
 
 <hr>
 
 <h2>子どもの利用について</h2>
 
-<p>
-開発者は、子どもから意図的に個人情報を収集することはありません。
-</p>
+<p>対象年齢はアプリごとに定め、各ストアで設定します。年齢区分など、各ストアが表示する年齢に関する情報は、アプリの掲載ページでご確認ください。</p>
 
-<p>
-万が一そのような情報が収集されたことが判明した場合は、合理的な範囲で速やかに削除対応を行います。
-</p>
+<p>開発者は、子どもの個人情報を意図的に収集することを目的としていません。必要な許可を得ずに情報が提供された可能性がある場合は、下記窓口までご連絡ください。状況を確認し、該当する場合は削除に向けて合理的な措置を取ります。</p>
 
 <hr>
 
-<h2>データ保持について</h2>
+<h2>データの保持・削除と安全管理について</h2>
 
-<p>
-第三者サービスによって収集される情報の保持期間は、各サービス提供者のポリシーに従います。
-</p>
+<p>開発者が受け取った問い合わせ情報は、対応とその後の確認に必要な期間、および法令で保存が求められる場合はその期間、保持します。これらの目的に必要な期間が終了した後、開発者が管理する情報を削除します。各第三者サービスが取り扱う情報は、その事業者のポリシーに従い、サービス提供、法令対応、会計、不正防止などに必要な期間保持される場合があります。</p>
 
-<p>
-開発者は、個別のアプリで明示しない限り、個人を特定できる情報を直接保管しません。
-</p>
+<p>開発者が管理する個人情報について、法令に基づく開示、訂正、利用停止、削除等の請求に適切に対応します。アプリ名とOSを添えて下記メールアドレスへご連絡ください。請求の確認に必要な最小限の情報をお願いすることがあります。対応の可否と範囲は、適用法令や記録の保存義務に応じて判断します。</p>
+
+<p>第三者SDKの提供者やストアが管理するデータには、各事業者のポリシーと手続きが適用されます。該当するデータについては、上記リンク先の事業者のプライバシー窓口やアカウントのサポートをご利用ください。</p>
+
+<p>端末内のアプリデータは、Androidではアプリ設定の「ストレージを消去」、iOSでは端末のストレージ設定の「Appを削除」から消去できます。同じストアアカウントで利用する場合、購入権利が復元されることがあります。ストアやSDK提供者の記録、OSのバックアップは、端末内のアプリデータとは別に管理されます。</p>
+
+<p>本ポリシーはHTTPSで配信します。UnityはLevelPlay、Unity Ads、Engine Diagnosticsについて、各サービスの公開資料の対象となるデータを転送時に暗号化すると説明しています。ストアの決済情報にはAppleまたはGoogleの安全管理が適用されます。開発者への問い合わせ情報は、返信や調査に必要な担当者だけが取り扱います。</p>
 
 <hr>
 
 <h2>プライバシーポリシーの変更</h2>
 
-<p>
-本プライバシーポリシーは必要に応じて改定される場合があります。
-</p>
-
-<p>
-変更内容は本ページに掲載されます。
-</p>
-
-<p>
-変更後もアプリを継続して利用した場合、改定後の内容に同意したものとみなされます。
-</p>
+<p>本ポリシーを改定する場合は、このページに変更内容を掲載し、最終更新日を更新します。</p>
 
 <hr>
 
 <h2>お問い合わせ</h2>
 
-<p>
-本プライバシーポリシーに関するご質問は、以下までお問い合わせください。
-</p>
+<p>個人情報の取り扱いに関するご質問や法令に基づく請求は、STUDIO MINAGIの <a href="mailto:info@studiominagi.com">info@studiominagi.com</a> にご連絡ください。</p>
 
-<p>
-開発者：STUDIO MINAGI<br>
-Email：<a href="mailto:info@studiominagi.com">info@studiominagi.com</a>
-</p>
+</div>
 
 </body>
 </html>
